@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Attention
+
+The following dependencies doesn't match with newer versions of React, use these commands to fix this if the npm install fail:
+npm install --save --legacy-peer-deps @material-ui/core
+npm install --legacy-peer-deps react-icons
+
 ## Available Scripts
 
 In the project directory, you can run:
